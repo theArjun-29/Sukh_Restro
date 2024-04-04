@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukh_Dhaba</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- Section-Nav-Start -->
+
+  <div class="nav">
+    <nav>
+
+      <div class="logo">
+      <a href="#">Sukh Dhaba</a>
+    </div>
+
+      <div class="navlinks">
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="#"><li onclick="menu()">Menu</li></a>
+          <a href="about.html"><li>About Us</li></a>
+          <a href="contact.html"><li>Contact Us</li></a>
+        </ul>
+      </div>
+
+      <div class="sub-menu1" id="menubar">
+        <div class="sub-menu">
+          <div class="user-info1">
+            <h1>Sukh Dhaba</h1>
+          </div>
+          <hr>
+
+          <a href="#"  class="sub-menu-link" onclick="menu1()">
+            <p>Veg</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link" onclick="menu12()">
+            <p>Chinese</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link" onclick="menu13()">
+            <p>Beverages</p>
+            <span>></span>
+          </a>
+
+        </div>
+      </div>
+
+
+      <!-- VEG-Food -->
+      
+      <div class="sub-menu12" id="menubar1">
+        <div class="sub-menu">
+          
+          <a href="#"  class="sub-menu-link">
+            <p>Kadhai Paneer</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Regular Paneer</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Tofu Paneer</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Dal Makhani</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Chaap</p>
+            <span>></span>
+          </a>
+          
+          <a href="#" class="sub-menu-link">
+            <p>Tandoori Roti/Naan</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Rice Varieties</p>
+            <span>></span>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- VEG-Food -->
+
+      <!--Chinese-Food  -->
+
+      
+      <div class="sub-menu13" id="menubar13">
+        <div class="sub-menu">
+          
+          <a href="#"  class="sub-menu-link">
+            <p>Spring Rolls</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Veg Manchurian</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Chow Mein</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Chaat</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Fried Rice</p>
+            <span>></span>
+          </a>
+          
+
+        </div>
+      </div>
+
+
+
+      <!--CHINESE-Food  -->
+
+
+      <!-- Beverages -->
+
+          
+      <div class="sub-menu14" id="menubar14">
+        <div class="sub-menu">
+          
+          <a href="#"  class="sub-menu-link">
+            <p>Raita</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Lassi</p>
+            <span>></span>
+          </a>
+
+          <a href="#" class="sub-menu-link">
+            <p>Soft Drinks</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Chai</p>
+            <span>></span>
+          </a>
+
+          
+          <a href="#" class="sub-menu-link">
+            <p>Green Tea</p>
+            <span>></span>
+          </a>
+          
+
+        </div>
+      </div>
+
+
+
+      <!-- Beverages -->
+
+
+      <div class="navli">
+        <a href="signup.html">Sign Up</a>
+      </div>
+
+      <div class="mobile">
+        <button onclick="togglemenu()"><img src="pics/bar.png" alt=""></button>
+
+
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="user-info">
+              <h2>Sukh Dhaba</h2>
+            </div>
+            <hr>
+
+
+            <a href="index.html" class="sub-menu-link">
+              <p>Home</p>
+              <span>></span>
+            </a>
+
+            <a href="about.html" class="sub-menu-link">
+              <p>About Us</p>
+              <span>></span>
+            </a>
+
+            <a href="contact.html" class="sub-menu-link">
+              <p>Contact Us</p>
+              <span>></span>
+            </a>
+
+            <a href="signup.html" style="color: rgb(123, 17, 17);" class="sub-menu-link">
+              <p>Sign Up</p>
+              <span>></span>
+            </a>
+
+
+          </div>
+        </div>
+
+      </div>
+
+    </nav>
+  </div>
+
+  <!-- Section-Nav-End -->
+
+
+  <!-- Section-1-Start -->
+    
+<div class="headmain">
+
+    <div class="main1">
+    <h1>Eat, drink and</h1>
+    <h1>Enjoy.</h1>
+    </div>
+
+
+
+</div>
+
+  <!-- Section-1-End -->
+
+
+  <!-- Section-2-Start -->
+
+  <!-- Section-2-End -->
+
+
+  <!-- Section-3-Start -->
+
+  <div class="sec3Main">
+    <div class="text">
+    <h2 style="color: rgb(230, 229, 229);">COVD-19 Protocol</h2>
+    <h1 style="font-size: 62px;">We care about you</h1>
+    <button>Read more</button>
+  </div>
+
+  </div>
+
+
+  <!-- Section-3-End -->
+
+  <!-- Section-4-Start -->
+
+  <!-- Section-4-End -->
+
+
+  <!-- Section-5-Start -->
+
+  <div class="sec5Main">
+
+    <div class="sec5Submain">
+
+      <div class="sec5Submain-1">
+        <h2>Words from</h2>
+        <h1>The Chef</h1>
+
+        <p>"As the chef of Restro Sukh, my mission is to delight your taste buds with every dish crafted from the heart. With a passion for culinary excellence and a commitment to using the freshest ingredients, I aim to create memorable dining experiences that leave you craving for more. From classic comfort foods to innovative culinary creations, every dish is infused with love and creativity, reflecting the essence of our restaurant's ethos. Join us at Restro Sukh, where every bite tells a story of flavor, tradition, and joy."</p>
+
+        <button class="button">Read More</button>
+      </div>
+
+      <div class="sec5Submain-2"> 
+        <img src="pics/sec5-1.png" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Section-5-End -->
+
+
+  <!-- Section-6-Start -->
+
+  <div class="sec6Main">
+
+    <h3 style="color: rgb(123, 17, 17); font-weight: bolder;">What our</h3>
+    <h1>Customers Says</h1>
+
+    <div class="sec6Submain">
+
+      <div class="sec6Submain-1">
+        <div class="sec6sub-sub1">
+          <img src="pics/john.jpg" width="90px" height="90px" alt="" style="border-radius: 50%; margin-top: 5px;">
+        </div>
+
+        <div class="sec6sub-sub2">
+          <h1 style="display: inline;">Jhon Smith</h1>
+          <span style="color: beige;">Mar/18/24</span>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos accusamus debitis!</p>
+        </div>
+      </div>
+
+      <div class="sec6Submain-1">
+        <div class="sec6sub-sub1">
+          <img src="pics/john.jpg" width="90px" height="90px" alt="" style="border-radius: 50%; margin-top: 5px;">
+        </div>
+
+        <div class="sec6sub-sub2">
+          <h1 style="display: inline;">Jhon Smith</h1>
+          <span style="color: beige;">Mar/18/24</span>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos accusamus debitis!</p>
+        </div>
+      </div>
+
+      <div class="sec6Submain-1">
+        <div class="sec6sub-sub1">
+          <img src="pics/john.jpg" width="90px" height="90px" alt="" style="border-radius: 50%; margin-top: 5px;">
+        </div>
+
+        <div class="sec6sub-sub2">
+          <h1 style="display: inline;">Jhon Smith</h1>
+          <span style="color: beige;">Mar/18/24</span>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos accusamus debitis!</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Section-6-End -->
+
+
+  <!-- Section-7-Start -->
+
+  <div class="sec7Main">
+
+    <h3 style="color: rgb(123, 17, 17);">Subscribe</h3>
+
+    <h1>To Our Newsletter</h1>
+
+    <div class="div1">
+    <input type="text" placeholder="NAME">
+    </div>
+
+    <div class="div1">
+    <input type="email" placeholder="MAIL">
+    </div>
+
+    <div class="div1">
+    <textarea name="" id="" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+    </div>
+
+    <button class="button">SEND MESSAGE</button>
+
+  </div>
+
+  <!-- Section-7-End -->
+
+
+
+  <!-- FOOTER -->
+
+  <div class="footer">
+
+    <div class="footer1">
+      <h1>About</h1>
+
+      <h3><a href="#">History</a></h3>
+
+      <h3><a href="#">Our Team</a></h3>
+
+      <h3><a href="#">Mission Statement</a></h3>
+
+      <h3><a href="#">Terms & Conditions</a></h3>
+
+      <h3><a href="#">Privacy Policy</a></h3>
+
+    </div>
+
+    <div class="footer2">
+
+      <h1>What we do</h1>
+
+      <h3><a href="#">News and stories</a></h3>
+
+      <h3><a href="#">Publications</a></h3>
+
+      <h3><a href="#">Take Action</a></h3>
+
+      <h3><a href="#">Recomendations</a></h3>
+
+      <h3><a href="#">Help</a></h3>
+
+    </div>
+
+
+    <div class="footer3">
+
+      <h1>Sign Up To Receive Our Newsletter</h1>
+
+      <div class="div">
+        <input type="text">
+      </div>
+
+      <h2>Follow Us</h2>
+
+      <h1 style="cursor: pointer; margin-top: 20px;">-BY-> Arjun Singh❤️</h1>
+
+    </div>
+
+  </div>
+
+
+  <!-- FOOTER -->
+
+
+
+
+
+</body>
+<script type="text/javascript">
+
+// =========================toggle-btn
+
+  var subMenu = document.getElementById('subMenu');
+
+  function togglemenu(){
+    // alert();
+    subMenu.classList.toggle("open-menu");
+  }
+
+  // ==================menu-bar
+
+  var menubar = document.getElementById('menubar');
+
+  function menu(){
+    // alert();
+    menubar.classList.toggle("submenu-subbar");
+  }
+
+  // ==================veg-menu
+
+  var menubar1 = document.getElementById('menubar1');
+
+  function menu1(){
+    menubar1.classList.toggle("submenu-subbar1");
+  }
+
+
+  // =========================chinese-menu
+
+  
+  var menubar12 = document.getElementById('menubar13');
+
+  function menu12(){
+    menubar12.classList.toggle("submenu-subbar12");
+  }
+
+
+  // =========================Beverage-menu
+
+  
+  var menubar13 = document.getElementById('menubar14');
+
+  function menu13(){
+    menubar13.classList.toggle("submenu-subbar13");
+  }
+
+
+</script>
+</html>
